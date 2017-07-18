@@ -1,5 +1,4 @@
 import java.awt.Dimension;
-
 import javax.swing.JComponent;
 import javax.swing.JFrame;
 
@@ -21,7 +20,7 @@ public class Main
         board.setMinimumSize(new Dimension(300, 300));
         board.setPreferredSize(new Dimension(300, 300));
         frame.setMinimumSize(new Dimension(300, 300));
-        frame.setLocation(50, 50);
+        frame.setLocation(100, 100);
         frame.pack();
         frame.setVisible(true);
 	}
